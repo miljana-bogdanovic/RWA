@@ -1,0 +1,13 @@
+.pozadina{
+    background: linear-gradient( rgba(230, 210, 37, 0.5), rgba(230, 100, 14, 0.493) );
+    border : 1px solid rgba(131, 129, 129, 0);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:stretch;
+}
+.postStick {
+    width: 50%;
+}
+  

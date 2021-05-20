@@ -1,0 +1,15 @@
+<mat-card class = " shadow text-black"
+(mouseenter) = "isHovered = true;"
+(mouseleave) = "isHovered = false;">
+    <mat-card-title>
+        {{postStick.description}} 
+        <div  *ngIf = "postStick.important">
+            <fa-icon class="important" [icon]="iconExclamation"></fa-icon>
+        </div>
+    </mat-card-title>
+    <mat-card-content>{{postStick.dueDate}}</mat-card-content>
+    <hr>
+    <div class="row" *ngIf = "isHovered">
+        <button type="button" class="btn btn-danger" (click)="onClickIzbrisi()">Obrisi</button>
+    </div>
+</mat-card>

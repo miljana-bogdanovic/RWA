@@ -1,0 +1,32 @@
+.mat-card:hover{
+    background-color: rgba(107, 105, 105, 0.9);
+    height: 150px;
+  }
+  .mat-card{
+    background-color: rgba(171, 184, 207, 0.5);
+    min-width: 200px;
+    width: 500px;
+    height: 130px;
+    padding : 5px;
+    margin: 15px;
+    border : 1px solid rgba(107, 105, 105, 0.9)
+  }
+  .mat-card-content {
+    font-weight: 600;
+    text-align: right;
+    font-size: large;
+  }
+  .mat-card-title{
+    background-color: rgba(190, 231, 211, 0.952);
+    text-align: center;
+    color: #003049;
+    font-weight: 800;
+    font-size: x-large;
+  }
+
+  .important {
+    color: red;
+    margin: 10px;
+    float: left;
+  }
+
